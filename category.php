@@ -1,7 +1,8 @@
 <?php
 // category.php - Currency selection page
 $page_title = "Choose Your USDT Network";
-include 'user/inc/header.php'; // if you have a header include
+// Remove the include line below - it's causing the error
+// include 'user/inc/header.php';
 ?>
 <!doctype html>
 <html>
