@@ -9,13 +9,13 @@ include 'user/inc/header.php'; // if you have a header include
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Choose USDT Network - Flasher</title>
-    <link rel="shortcut icon" type="image/x-icon" href="https://flasherr.in/user/img/favicon.png">
-    <link rel="stylesheet" href="https://flasherr.in/user/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://flasherr.in/user/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="https://flasherr.in/user/css/slick.css">
-    <link rel="stylesheet" href="https://flasherr.in/user/css/default.css">
-    <link rel="stylesheet" href="https://flasherr.in/user/css/style.css">
-    <link rel="stylesheet" href="https://flasherr.in/user/css/responsive.css">
+    <link rel="shortcut icon" type="image/x-icon" href="user/img/favicon.png">
+    <link rel="stylesheet" href="user/css/bootstrap.min.css">
+    <link rel="stylesheet" href="user/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="user/css/slick.css">
+    <link rel="stylesheet" href="user/css/default.css">
+    <link rel="stylesheet" href="user/css/style.css">
+    <link rel="stylesheet" href="user/css/responsive.css">
     <style>
         .invest-card { text-align:center; background:#0F101E; border-radius:15px; padding:40px 20px; border:1px solid rgba(255,255,255,0.12); height:100%; transition:0.3s; }
         .invest-card:hover { transform:translateY(-8px); background:#1a1c2e; }
@@ -38,7 +38,7 @@ include 'user/inc/header.php'; // if you have a header include
             <div class="row"><div class="col-12">
                 <div class="menu-wrap">
                     <nav class="menu-nav">
-                        <div class="logo"><a href="index.html"><img src="https://flasherr.in/user/img/logo/logo.png" style="height:50px;" alt="Logo"></a></div>
+                        <div class="logo"><a href="index.html"><img src="user/img/logo/logo.png" style="height:50px;" alt="Logo"></a></div>
                         <div class="navbar-wrap main-menu d-none d-lg-flex">
                             <ul class="navigation">
                                 <li><a href="index.html">Home</a></li>
@@ -71,7 +71,7 @@ include 'user/inc/header.php'; // if you have a header include
                     </div>
                     <div class="col-lg-3 col-md-4">
                         <div class="hero-thumb alltuchtopdown">
-                            <img class="img-fluid rounded" src="https://flasherr.in/user/img/update/hero/hero-1-1.jpg" alt="Crypto">
+                            <img class="img-fluid rounded" src="user/img/update/hero/hero-1-1.jpg" alt="Crypto">
                         </div>
                     </div>
                 </div>
@@ -82,7 +82,7 @@ include 'user/inc/header.php'; // if you have a header include
                         <div class="col-lg-3 col-md-6">
                             <div class="invest-card">
                                 <div class="invest-card-icon">
-                                    <img src="https://flasherr.in/user/img/categories/17800479801712556856.png" alt="Solana">
+                                    <img src="user/img/categories/17800479801712556856.png" alt="Solana">
                                 </div>
                                 <h5 style="color:#fff; margin-bottom:20px;">Solana</h5>
                                 <a href="payment.php?network=solana" class="btn-network">Buy Now</a>
@@ -92,7 +92,7 @@ include 'user/inc/header.php'; // if you have a header include
                         <div class="col-lg-3 col-md-6">
                             <div class="invest-card">
                                 <div class="invest-card-icon">
-                                    <img src="https://flasherr.in/user/img/categories/17438918691118013155.png" alt="POL">
+                                    <img src="user/img/categories/17438918691118013155.png" alt="POL">
                                 </div>
                                 <h5 style="color:#fff; margin-bottom:20px;">POL (Polygon)</h5>
                                 <a href="payment.php?network=polygon" class="btn-network">Buy Now</a>
@@ -102,7 +102,7 @@ include 'user/inc/header.php'; // if you have a header include
                         <div class="col-lg-3 col-md-6">
                             <div class="invest-card">
                                 <div class="invest-card-icon">
-                                    <img src="https://flasherr.in/user/img/categories/17438921711378386741.png" alt="TRON">
+                                    <img src="user/img/categories/17438921711378386741.png" alt="TRON">
                                 </div>
                                 <h5 style="color:#fff; margin-bottom:20px;">TRON (TRC20)</h5>
                                 <a href="payment.php?network=tron" class="btn-network">Buy Now</a>
@@ -112,7 +112,7 @@ include 'user/inc/header.php'; // if you have a header include
                         <div class="col-lg-3 col-md-6">
                             <div class="invest-card">
                                 <div class="invest-card-icon">
-                                    <img src="https://flasherr.in/user/img/categories/17397835451268888151.png" alt="ETH">
+                                    <img src="user/img/categories/17397835451268888151.png" alt="ETH">
                                 </div>
                                 <h5 style="color:#fff; margin-bottom:20px;">ETH (ERC20)</h5>
                                 <a href="payment.php?network=eth" class="btn-network">Buy Now</a>
@@ -122,7 +122,7 @@ include 'user/inc/header.php'; // if you have a header include
                         <div class="col-lg-3 col-md-6">
                             <div class="invest-card">
                                 <div class="invest-card-icon">
-                                    <img src="https://flasherr.in/user/img/categories/1743892289833619663.webp" alt="BEP20">
+                                    <img src="user/img/categories/1743892289833619663.webp" alt="BEP20">
                                 </div>
                                 <h5 style="color:#fff; margin-bottom:20px;">BINANCE (BEP20)</h5>
                                 <a href="payment.php?network=bep20" class="btn-network">Buy Now</a>
@@ -175,9 +175,9 @@ include 'user/inc/header.php'; // if you have a header include
     </div>
 </footer>
 
-<script src="https://flasherr.in/user/js/vendor/jquery-3.6.0.min.js"></script>
-<script src="https://flasherr.in/user/js/bootstrap.min.js"></script>
-<script src="https://flasherr.in/user/js/slick.min.js"></script>
-<script src="https://flasherr.in/user/js/main.js"></script>
+<script src="user/js/vendor/jquery-3.6.0.min.js"></script>
+<script src="user/js/bootstrap.min.js"></script>
+<script src="user/js/slick.min.js"></script>
+<script src="user/js/main.js"></script>
 </body>
 </html>
